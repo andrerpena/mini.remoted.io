@@ -1,4 +1,4 @@
-# mini.remoted.io
+# 👩‍💻👨‍💻🗺🌏 mini.remoted.io
 
 ### Find your next remote job at [mini.remoted.io](https://mini.remoted.io)
 
