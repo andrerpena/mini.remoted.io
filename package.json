@@ -4,7 +4,8 @@
   "description": "Static (no-js) listing of Remote jobs based on the Remoted GraphQL API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "gql-gen --config codegen.yml"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,29 @@
     "job",
     "jobs"
   ],
+  "dependencies": {
+    "apollo-boost": "^0.1.28",
+    "graphql": "^14.1.1",
+    "react-apollo": "^2.4.1"
+  },
+  "devDependencies": {
+    "colors": "^1.3.3",
+    "graphql-code-generator": "^0.17.0",
+    "graphql-codegen-introspection": "^0.17.0",
+    "typescript": "^3.1.6",
+    "ts-jest": "^23.10.5",
+    "jest": "^23.6.0",
+    "@types/jest": "^24.0.4",
+    "@types/graphql": "^14.0.7",
+    "fs-extra": "^7.0.1",
+    "graphql-codegen-fragment-matcher": "0.17.0",
+    "graphql-codegen-typescript-client": "^0.17.0",
+    "graphql-codegen-typescript-common": "^0.17.0",
+    "husky": "^1.3.1",
+    "prettier": "1.16.4",
+    "pretty-quick": "^1.10.0",
+    "ts-node": "^7.0.1"
+  },
   "author": "Andre Pena",
   "license": "MIT",
   "bugs": {
