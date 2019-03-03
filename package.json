@@ -4,13 +4,14 @@
   "description": "Static (no-js) listing of Remote jobs based on the Remoted GraphQL API",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run watch-ts && watch-ts",
+    "dev": "npm run watch-sass | npm run watch-ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "gql-gen --config codegen.yml",
+    "graphql": "gql-gen --config codegen.yml",
     "playground": "ts-node playground",
     "build-sass": "node-sass ./src/static/styles.scss ./docs/styles.css",
     "watch-sass": "nodemon -e scss -x \"npm run build-sass\"",
-    "watch-ts": "nodemon -e ts -x \"ts-node ./src/index.ts\""
+    "watch-ts": "nodemon -e ts,html -x \"ts-node ./src/index.ts\"",
+    "build": "ts-node ./src/build.ts"
   },
   "repository": {
     "type": "git",

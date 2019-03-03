@@ -8,3 +8,5 @@ on the [Remoted GraphQL API](https://remoted.io/graphql). The website consists o
 job posts.
 
 This repository contains both the generator and the website itself.
+
+The style is inspired by the [Advent of Code Leaderboard](https://adventofcode.com/2018/leaderboard).

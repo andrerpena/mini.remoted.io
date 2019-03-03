@@ -82,6 +82,10 @@ export namespace GetJobs {
 
     tags: string[];
 
+    url: string;
+
+    publishedAt: string;
+
     company: Maybe<Company>;
   };
 

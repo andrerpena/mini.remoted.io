@@ -1,7 +1,9 @@
 query getJobs {
     jobs {
         title,
-        tags
+        tags,
+        url,
+        publishedAt,
         company {
             displayName,
             imageUrl,

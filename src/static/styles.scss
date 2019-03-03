@@ -1,7 +1,58 @@
 $background-color: #0f0f23;
-$color: white;
 $text-color: rgb(204, 204, 204);
 
 body {
-  background-color: blue;
+  background-color: $background-color;
+  color: $text-color;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1.title {
+  color: #00cc00;
+  text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
+  font-size: 20px;
+}
+
+.tags {
+  color: #4f4f4f;
+  display: block;
+}
+
+.company {
+  color: #009900;
+}
+
+.job {
+  display: block;
+  img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  margin-bottom: 6px;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  .image-column {
+
+  }
+  .content-column {
+    margin-left: 10px;
+    flex-grow: 1;
+    .time {
+      white-space: nowrap;
+      color: #4f4f4f;
+    }
+  }
 }
