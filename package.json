@@ -1,0 +1,24 @@
+{
+  "name": "mini.remoted.io",
+  "version": "1.0.0",
+  "description": "Static (no-js) listing of Remote jobs based on the Remoted GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remoted-io/mini.remoted.io.git"
+  },
+  "keywords": [
+    "remote",
+    "job",
+    "jobs"
+  ],
+  "author": "Andre Pena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remoted-io/mini.remoted.io/issues"
+  },
+  "homepage": "https://github.com/remoted-io/mini.remoted.io#readme"
+}
