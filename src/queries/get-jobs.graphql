@@ -1,0 +1,10 @@
+query getJobs {
+    jobs {
+        title,
+        tags
+        company {
+            displayName,
+            imageUrl,
+        }
+    }
+}

@@ -2,10 +2,7 @@ overwrite: true
 schema: "https://remoted.io/graphql"
 documents: "**/*.graphql"
 generates:
-  ./graphql-types.ts:
+  ./src/graphql-types.ts:
     plugins:
       - "typescript-common"
       - "typescript-client"
-  ./graphql.schema.json:
-    plugins:
-      - "introspection"
